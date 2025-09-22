@@ -34,7 +34,3 @@ if __name__ == '__main__':
     with app.app_context():
         add_sample_stocks()
     app.run(host='0.0.0.0', port=5000, debug=True)
-git add .
-git commit -m "Refactor main.py: safe sample stock insert, app context, and clean startup"
-git push
-git status

@@ -126,86 +126,17 @@ MOCK_USERS = [
 ]
 
 MOCK_STOCKS = [
-    {
-        'id': '1',
-        'symbol': 'AAPL',
-        'name': 'Apple Inc.',
-        'sector': 'Technology',
-        'industry_type': 'Consumer Electronics',
-        'industry_code': 'TECH001',
-        'price': 175.50,
-        'change_percent': 2.3
-    },
-    {
-        'id': '2',
-        'symbol': 'GOOGL',
-        'name': 'Alphabet Inc.',
-        'sector': 'Technology',
-        'industry_type': 'Internet Services',
-        'industry_code': 'TECH002',
-        'price': 2850.25,
-        'change_percent': -1.2
-    },
-    {
-        'id': '3',
-        'symbol': 'MSFT',
-        'name': 'Microsoft Corporation',
-        'sector': 'Technology',
-        'industry_type': 'Software',
-        'industry_code': 'TECH003',
-        'price': 420.15,
-        'change_percent': 1.8
-    },
-    {
-        'id': '4',
-        'symbol': 'TSLA',
-        'name': 'Tesla Inc.',
-        'sector': 'Consumer',
-        'industry_type': 'Electric Vehicles',
-        'industry_code': 'AUTO001',
-        'price': 245.80,
-        'change_percent': -3.5
-    },
-    {
-        'id': '5',
-        'symbol': 'HD',
-        'name': 'Home Depot Inc.',
-        'sector': 'Wholesale Distributors',
-        'industry_type': 'Home Improvement',
-        'industry_code': 'RETAIL001',
-        'price': 320.45,
-        'change_percent': 1.5
-    },
-    {
-        'id': '6',
-        'symbol': 'LOW',
-        'name': 'Lowe\'s Companies',
-        'sector': 'Wholesale Distributors',
-        'industry_type': 'Home Improvement',
-        'industry_code': 'RETAIL002',
-        'price': 225.80,
-        'change_percent': 0.8
-    },
-    {
-        'id': '7',
-        'symbol': 'JPM',
-        'name': 'JPMorgan Chase',
-        'sector': 'Financials',
-        'industry_type': 'Banking',
-        'industry_code': 'FIN001',
-        'price': 145.30,
-        'change_percent': -0.5
-    },
-    {
-        'id': '8',
-        'symbol': 'BAC',
-        'name': 'Bank of America',
-        'sector': 'Financials',
-        'industry_type': 'Banking',
-        'industry_code': 'FIN002',
-        'price': 35.75,
-        'change_percent': 1.2
-    }
+    {'id': '1', 'symbol': 'CSWCZ', 'industry': 'Finance Companies', 'market_cap': '1191762863', 'market_cap_formatted': '$1.2B', 'latest_volume': '565', 'mrs_current': '0.009661706', 'weekly_growth': '-0.087251184', 'total_stocks': '27', 'total_market_cap_formatted': '$504.9B', 'price_vs_sma_pct': '584.60%'},
+    {'id': '2', 'symbol': 'CTSH', 'industry': 'EDP Services', 'market_cap': '34622387974', 'market_cap_formatted': '$34.6B', 'latest_volume': '406834', 'mrs_current': '0.801444001', 'weekly_growth': '0.054949334', 'total_stocks': '226', 'total_market_cap_formatted': '$1.6T', 'price_vs_sma_pct': '64.00%'},
+    {'id': '3', 'symbol': 'CTSO', 'industry': 'Medical/Dental Instruments', 'market_cap': '56474559', 'market_cap_formatted': '$56.5M', 'latest_volume': '124514', 'mrs_current': '0.348502237', 'weekly_growth': '-0.050868003', 'total_stocks': '24', 'total_market_cap_formatted': '$319.7B', 'price_vs_sma_pct': '56.90%'},
+    {'id': '4', 'symbol': 'CUBI', 'industry': 'Major Banks', 'market_cap': '1959390862', 'market_cap_formatted': '$2.0B', 'latest_volume': '38703', 'mrs_current': '0.029684172', 'weekly_growth': '-0.094944486', 'total_stocks': '35', 'total_market_cap_formatted': '$312.6B', 'price_vs_sma_pct': '50.80%'},
+    {'id': '5', 'symbol': 'CV', 'industry': 'Biotechnology: Electromedical & Electrotherapeutic Apparatus', 'market_cap': '194517018', 'market_cap_formatted': '$194.5M', 'latest_volume': '25538', 'mrs_current': '0.095974197', 'weekly_growth': '-0.044390973', 'total_stocks': '37', 'total_market_cap_formatted': '$386.4B', 'price_vs_sma_pct': '44.50%'},
+    {'id': '6', 'symbol': 'CVBF', 'industry': 'Major Banks', 'market_cap': '2623799660', 'market_cap_formatted': '$2.6B', 'latest_volume': '71528', 'mrs_current': '0.042146241', 'weekly_growth': '0.119482539', 'total_stocks': '27', 'total_market_cap_formatted': '$666.9B', 'price_vs_sma_pct': '36.80%'},
+    {'id': '7', 'symbol': 'CVE', 'industry': 'Oil & Gas Production', 'market_cap': '27067095000', 'market_cap_formatted': '$27.1B', 'latest_volume': '1040654', 'mrs_current': '0.230591177', 'weekly_growth': '-0.116005285', 'total_stocks': '536', 'total_market_cap_formatted': '$3.8T', 'price_vs_sma_pct': '35.90%'},
+    {'id': '8', 'symbol': 'CVR', 'industry': 'Industrial Machinery/Components', 'market_cap': '12342336', 'market_cap_formatted': '$12.3M', 'latest_volume': '142', 'mrs_current': '0.674421479', 'weekly_growth': '0.220037936', 'total_stocks': '19', 'total_market_cap_formatted': '$67.0B', 'price_vs_sma_pct': '31.00%'},
+    {'id': '9', 'symbol': 'CWAN', 'industry': 'Computer Software: Prepackaged Software', 'market_cap': '5784653522', 'market_cap_formatted': '$5.8B', 'latest_volume': '258390', 'mrs_current': '0.593852637', 'weekly_growth': '0.034397199', 'total_stocks': '44', 'total_market_cap_formatted': '$542.2B', 'price_vs_sma_pct': '25.20%'},
+    {'id': '10', 'symbol': 'CWBC', 'industry': 'Major Banks', 'market_cap': '357209587', 'market_cap_formatted': '$357.2M', 'latest_volume': '2816', 'mrs_current': '0.136530562', 'weekly_growth': '-0.014295807', 'total_stocks': '14', 'total_market_cap_formatted': '$472.7B', 'price_vs_sma_pct': '22.50%'},
+    {'id': '11', 'symbol': '122', 'industry': 'Other Pharmaceuticals', 'market_cap': '1.590310372', 'market_cap_formatted': '1.303065054', 'latest_volume': '0.220438203', 'mrs_current': 'TRUE', 'weekly_growth': '1.82E+11', 'total_stocks': '11', 'total_market_cap_formatted': '$182.0B', 'price_vs_sma_pct': '22.00%'}
 ]
 
 MOCK_SUBSCRIPTION_REQUESTS = [
@@ -631,21 +562,23 @@ def bulk_upload_stocks():
     if not file.filename or not file.filename.endswith('.csv'):
         return jsonify({'error': 'File must be a CSV file'}), 400
     
+    global MOCK_STOCKS, MOCK_SCREENINGS
     try:
         # Read CSV file content
         stream = io.StringIO(file.stream.read().decode("UTF8"), newline=None)
         csv_reader = csv.DictReader(stream)
-        
         processed_count = 0
         error_count = 0
         errors = []
-        
-        global MOCK_STOCKS
-        
+        # Clear all existing stocks before adding new ones from CSV
+        MOCK_STOCKS.clear()
+        new_stocks = []
+        entry_stocks = []
+        breakout_stocks = []
         for row_num, row in enumerate(csv_reader, start=2):  # Start from 2 to account for header
             try:
                 # Validate required fields
-                required_fields = ['symbol', 'industry', 'market_cap', 'market_cap_formatted', 'latest_volume', 'mrs_current', 'weekly_growth', 'total_stocks', 'total_market_cap_formatted', 'price_vs_sma_pct']
+                required_fields = ['symbol', 'industry', 'market_cap', 'market_cap_formatted', 'latest_volume', 'mrs_current', 'weekly_growth', 'total_stocks', 'total_market_cap_formatted', 'price_vs_sma_pct', 'watchlist_type']
                 missing_fields = [field for field in required_fields if not row.get(field, '').strip()]
                 if missing_fields:
                     error_count += 1
@@ -663,7 +596,8 @@ def bulk_upload_stocks():
                     'weekly_growth': float(row['weekly_growth']),
                     'total_stocks': int(row['total_stocks']),
                     'total_market_cap_formatted': row['total_market_cap_formatted'].strip(),
-                    'price_vs_sma_pct': float(row['price_vs_sma_pct'])
+                    'price_vs_sma_pct': float(row['price_vs_sma_pct']),
+                    'watchlist_type': row['watchlist_type'].strip().lower()
                 }
                 # Check for duplicate symbols
                 existing_stock = next((s for s in MOCK_STOCKS if s['symbol'] == stock_data['symbol']), None)
@@ -672,6 +606,12 @@ def bulk_upload_stocks():
                     existing_stock['id'] = existing_stock['id']
                 else:
                     MOCK_STOCKS.append(stock_data)
+                    new_stocks.append(stock_data)
+                # Split by watchlist_type
+                if stock_data['watchlist_type'] == 'entry':
+                    entry_stocks.append(stock_data)
+                elif stock_data['watchlist_type'] == 'breakout':
+                    breakout_stocks.append(stock_data)
                 processed_count += 1
             except ValueError as e:
                 error_count += 1
@@ -680,6 +620,28 @@ def bulk_upload_stocks():
                 error_count += 1
                 errors.append(f"Row {row_num}: Error processing row - {str(e)}")
         
+        # Update admin's entry zone and breakout watchlists
+        admin_user = User.query.filter_by(email='admin@tradinggrow.com').first()
+        if admin_user:
+            # Entry Zone
+            entry_watchlist = Watchlist.query.filter_by(user_id=admin_user.id, watchlist_type='entry').first()
+            if not entry_watchlist:
+                entry_watchlist = Watchlist(name="Admin Entry Zone Stocks", user_id=admin_user.id, watchlist_type='entry')
+                db.session.add(entry_watchlist)
+            entry_watchlist.stocks = entry_stocks
+            # Breakout
+            breakout_watchlist = Watchlist.query.filter_by(user_id=admin_user.id, watchlist_type='breakout').first()
+            if not breakout_watchlist:
+                breakout_watchlist = Watchlist(name="Admin Breakout Stocks", user_id=admin_user.id, watchlist_type='breakout')
+                db.session.add(breakout_watchlist)
+            breakout_watchlist.stocks = breakout_stocks
+            db.session.commit()
+        # Update mock screening results (if any)
+        for screening in MOCK_SCREENINGS:
+            screening['results_data'] = {'entry': entry_stocks, 'breakout': breakout_stocks}
+        # Update mock screening results (if any)
+        for screening in MOCK_SCREENINGS:
+            screening['results_data'] = {'stocks': new_stocks}
         # Prepare response
         response_data = {
             'success': True,
@@ -688,10 +650,8 @@ def bulk_upload_stocks():
             'errors': error_count,
             'total_stocks': len(MOCK_STOCKS)
         }
-        
         if errors:
             response_data['error_details'] = errors[:10]  # Limit to first 10 errors
-            
         return jsonify(response_data)
         
     except Exception as e:
